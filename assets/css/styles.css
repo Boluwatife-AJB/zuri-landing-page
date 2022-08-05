@@ -1,5 +1,6 @@
-/* @import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
 
+/*
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -170,6 +171,14 @@ body {
 
 .hero-text {
   width: 60%;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  background: red;
 }
 
 @media screen and (max-width: 768px) {
