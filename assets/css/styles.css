@@ -1,0 +1,289 @@
+/* @import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Averta-Regular', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #514949;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: #e7332b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #eb5850;
+} */
+
+/* .hero {
+  text-align: center;
+  background: url('/assets/images/hero-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.hero-logo {
+  margin: auto;
+  display: flex;
+  padding-top: 20%;
+  margin-bottom: 20%;
+}
+
+.hero-logo img {
+  display: block;
+  padding-top: 3.095rem;
+  margin: auto;
+  margin-bottom: 1.25rem;
+  height: auto;
+  vertical-align: middle;
+}
+
+.hero__content {
+  text-align: center;
+  /* max-width: 70%; */
+/* margin: 0 auto;
+  padding: 10px;
+}
+
+.hero__content h2 {
+  padding-bottom: 2.25rem;
+  font-size: 1.75rem;
+  line-height: 34px;
+  font-weight: 800;
+}
+
+.hero__content p {
+  color: #514949;
+  line-height: 24px;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.hero__button {
+  display: grid;
+  row-gap: 1.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}  */
+
+/* @media screen and (min-width: 500px) {
+  .hero__button {
+    display: flex;
+    column-gap: 2rem;
+  }
+} */
+
+/* .hero-btn {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 15px 28px;
+  border: 1px solid #e7332b;
+
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: #e7332b;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #fff;
+  color: #e7332b;
+}
+
+.btn-red-outline {
+  background-color: #fff;
+  color: #e7332b;
+}
+
+.btn-red-outline:hover {
+  background-color: #e7332b;
+  color: #fff;
+}
+
+.program {
+  background-color: #fff;
+}
+
+.program-container {
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.heading {
+  margin-top: 4rem;
+  text-align: center;
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: #e7332b;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 1.5rem;
+} */
+
+/* DEFAULT STYLES */
+a {
+  color: #e7332b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #eb5850;
+}
+
+body {
+  color: #514949;
+  /* overflow-x: hidden; */
+}
+
+/* HERO STYLES */
+
+.hero {
+  background-image: url('/assets/images/hero-bg.svg');
+  height: 100vh;
+}
+
+.hero-text {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: auto;
+  }
+  .hero-text {
+    width: 95%;
+  }
+
+  .hero-btn {
+    margin-bottom: 20%;
+  }
+
+  .program-card {
+    /* margin: 0 auto !important; */
+  }
+}
+.hero-btn {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 15px 28px;
+  border: 1px solid #e7332b;
+
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: #e7332b;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #fff;
+  color: #e7332b;
+}
+
+.btn-red-outline {
+  background-color: #fff;
+  color: #e7332b;
+}
+
+.btn-red-outline:hover {
+  background-color: #e7332b;
+  color: #fff;
+}
+
+.heading {
+  font-size: 1rem;
+  color: #e7332b;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  color: #514949;
+}
+
+/* .container-fluid {
+  margin: 0 auto;
+  max-width: 1240px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.program-card {
+  height: 511px;
+  width: 100%;
+  border: 1px solid red;
+  background-color: #fffafa;
+  padding: 61px 47px 82px 36px;
+  text-align: justify-all;
+  text-align: left;
+} */
+
+/* .program-card-zed {
+  position: relative;
+  z-index: 1;
+}
+
+img.card-bg-svg-1 {
+  width: 100%;
+  position: absolute;
+  left: -120px;
+  top: -75px;
+  z-index: -1;
+}
+
+img.card-bg-svg-2 {
+  width: 90%;
+  position: absolute;
+  right: -120px;
+  top: -75px;
+  z-index: -1;
+}
+
+.program-card img {
+  margin-bottom: 48px;
+}
+
+.program-card p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+}
+
+.program-card h3 a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7332b;
+  opacity: 0.9;
+}
+
+.my-container {
+  max-width: 1240px !important;
+} */
