@@ -157,6 +157,7 @@ a:hover {
 
 body {
   color: #514949;
+  font-family: 'Averta-Regular', sans-serif;
   /* overflow-x: hidden; */
 }
 
@@ -184,7 +185,12 @@ body {
   }
 
   .program-card {
-    /* margin: 0 auto !important; */
+    width: 80%;
+  }
+
+  img.card-svg-bg-1,
+  img.card-svg-bg-2 {
+    display: none;
   }
 }
 .hero-btn {
@@ -226,6 +232,37 @@ body {
 .subheading {
   font-size: 1.5rem;
   color: #514949;
+}
+
+.program-card {
+  width: 100%;
+  background-color: #fffafa;
+  padding: 61px 47px 82px 36px;
+  position: relative;
+  z-index: 1;
+}
+
+.program-text_body {
+  position: relative;
+  z-index: 1;
+}
+
+img.card-svg-bg-1 {
+  width: 100%;
+  position: absolute;
+  left: -120px;
+  top: -75px;
+  z-index: -1;
+  border: 1px solid blueviolet;
+}
+
+img.card-svg-bg-2 {
+  width: 90%;
+  position: absolute;
+  right: -120px;
+  top: -75px;
+  z-index: -1;
+  border: 1px solid red;
 }
 
 /* .container-fluid {
