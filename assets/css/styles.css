@@ -1,149 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
 
-/*
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
-body {
-  font-family: 'Averta-Regular', sans-serif;
-  padding: 0;
-  margin: 0;
-  color: #514949;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
-a {
-  color: #e7332b;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #eb5850;
-} */
-
-/* .hero {
-  text-align: center;
-  background: url('/assets/images/hero-bg.svg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: auto;
-}
-
-.hero-logo {
-  margin: auto;
-  display: flex;
-  padding-top: 20%;
-  margin-bottom: 20%;
-}
-
-.hero-logo img {
-  display: block;
-  padding-top: 3.095rem;
-  margin: auto;
-  margin-bottom: 1.25rem;
-  height: auto;
-  vertical-align: middle;
-}
-
-.hero__content {
-  text-align: center;
-  /* max-width: 70%; */
-/* margin: 0 auto;
-  padding: 10px;
-}
-
-.hero__content h2 {
-  padding-bottom: 2.25rem;
-  font-size: 1.75rem;
-  line-height: 34px;
-  font-weight: 800;
-}
-
-.hero__content p {
-  color: #514949;
-  line-height: 24px;
-  opacity: 0.9;
-  font-size: 1rem;
-}
-
-.hero__button {
-  display: grid;
-  row-gap: 1.5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}  */
-
-/* @media screen and (min-width: 500px) {
-  .hero__button {
-    display: flex;
-    column-gap: 2rem;
-  }
-} */
-
-/* .hero-btn {
-  font-family: inherit;
-  font-size: 1rem;
-  padding: 15px 28px;
-  border: 1px solid #e7332b;
-
-  display: block;
-  margin: auto;
-  cursor: pointer;
-}
-
-.btn-red {
-  background-color: #e7332b;
-  color: #fff;
-}
-
-.btn-red:hover {
-  background-color: #fff;
-  color: #e7332b;
-}
-
-.btn-red-outline {
-  background-color: #fff;
-  color: #e7332b;
-}
-
-.btn-red-outline:hover {
-  background-color: #e7332b;
-  color: #fff;
-}
-
-.program {
-  background-color: #fff;
-}
-
-.program-container {
-  margin: 0 auto;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.heading {
-  margin-top: 4rem;
-  text-align: center;
-  font-weight: 200;
-  font-size: 0.9rem;
-  color: #e7332b;
-  margin-bottom: 1rem;
-}
-
-.sub-heading {
-  text-align: center;
-  font-size: 1.5rem;
-} */
 
 /* DEFAULT STYLES */
 a {
@@ -159,7 +19,7 @@ a:hover {
 body {
   color: #514949;
   font-family: 'Averta-Regular', sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 /* HERO STYLES */
@@ -167,40 +27,24 @@ body {
 .hero {
   background-image: url('/assets/images/hero-bg.svg');
   height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .hero-text {
-  width: 60%;
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.hero-text p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #514949;
-  opacity: 0.9;
-  background: red;
+.hero-text h2 {
+  font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
-  .hero {
-    height: auto;
-  }
-  .hero-text {
-    width: 95%;
-  }
-
-  .hero-btn {
-    margin-bottom: 20%;
-  }
-
-  .program-card {
-    width: 80%;
-  }
-
-  img.card-svg-bg-1,
-  img.card-svg-bg-2 {
-    display: none;
-  }
+.custom-container {
+  max-width: 1240px !important;
 }
 .hero-btn {
   font-family: inherit;
@@ -243,12 +87,17 @@ body {
   color: #514949;
 }
 
-.program-card {
-  width: 100%;
-  background-color: #fffafa;
-  padding: 61px 47px 82px 36px;
+.program-card_container {
   position: relative;
   z-index: 1;
+}
+
+.program-card {
+  width: 100%;
+  padding: 61px 47px 82px 36px;
+  /* position: relative;
+  z-index: 1; */
+  background-color: #fffafa;
 }
 
 .program-text_body {
@@ -262,54 +111,16 @@ img.card-svg-bg-1 {
   left: -120px;
   top: -75px;
   z-index: -1;
-  border: 1px solid blueviolet;
+  /* border: 1px solid blueviolet; */
 }
 
 img.card-svg-bg-2 {
   width: 90%;
   position: absolute;
-  right: -120px;
+  right: -90px;
   top: -75px;
   z-index: -1;
-  border: 1px solid red;
-}
-
-/* .container-fluid {
-  margin: 0 auto;
-  max-width: 1240px;
-  text-align: center;
-  border: 1px solid red;
-}
-
-.program-card {
-  height: 511px;
-  width: 100%;
-  border: 1px solid red;
-  background-color: #fffafa;
-  padding: 61px 47px 82px 36px;
-  text-align: justify-all;
-  text-align: left;
-} */
-
-/* .program-card-zed {
-  position: relative;
-  z-index: 1;
-}
-
-img.card-bg-svg-1 {
-  width: 100%;
-  position: absolute;
-  left: -120px;
-  top: -75px;
-  z-index: -1;
-}
-
-img.card-bg-svg-2 {
-  width: 90%;
-  position: absolute;
-  right: -120px;
-  top: -75px;
-  z-index: -1;
+  /* border: 1px solid red; */
 }
 
 .program-card img {
@@ -330,6 +141,104 @@ img.card-bg-svg-2 {
   opacity: 0.9;
 }
 
-.my-container {
-  max-width: 1240px !important;
-} */
+.footer {
+  margin-top: 215px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+  padding: 20px;
+}
+
+.footer h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
+  /* text-align: left; */
+}
+
+.social-icon img {
+  width: 18px !important;
+  margin-right: 5px;
+}
+
+footer hr {
+  opacity: 0.2;
+  border: 0.7px solid #514949;
+}
+
+.copyright p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+  color: #514949;
+  padding-bottom: 97px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: auto;
+  }
+
+  .hero-btn {
+    margin-bottom: 20%;
+  }
+
+  .hero-logo img {
+    display: block;
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .hero__button {
+    /* margin-bottom: 50px; */
+  }
+
+  .program {
+    /* margin-top: -10px; */
+  }
+
+  .program-card {
+    width: 85%;
+  }
+
+  h3.heading {
+    margin-top: 60px !important;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 2rem;
+  }
+
+  .footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+
+  .footer-flex-container h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
